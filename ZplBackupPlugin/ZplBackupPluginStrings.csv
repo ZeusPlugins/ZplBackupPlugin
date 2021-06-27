@@ -5,8 +5,8 @@ _LanguageCode,en,en,,standard windows os language code this pack represents (can
 ZPLB_AmountOfBackups,Maximum amount of backups to produce,Maximum amount of backups to produce,,do I have to explain this
 ZPLB_AmountOfBackups_tooltip,Setting the value to 0 will disable backup functionality.,Setting the value to 0 will disable backup functionality.,,tooltip for the setting
 ZPLB_BackupFolderPath,Backup folder,Backup folder,,folder where backups will be written to
-ZPLB_DirectoryNotExist_Title,Project Backup,ProjectBackup,,warning box title
-ZPLB_DirectoryNotExist_Message,Backup directory does not exist, nowhere to place the backups.,Backup directory does not exist, nowhere to place the backups.,,warning box message
+ZPLB_DirectoryNotExist_Title,Project Backup,Project Backup,,warning box title
+ZPLB_DirectoryNotExist_Message,Backup directory does not exist. Set one in Preferences->Plugins->Project Backup.,Backup directory does not exist. Set one in Preferences->Plugins->Project Backup.,,warning box message
 ZPLB_Error,An error has occurred when backing up: {0},An error has occurred when backing up: {0},,on error box
 ZplBackup,Project Backup,Project Backup,,preferences title I guess
 ProgressBar_BackingUp,Backing up,Backing up,,progress bar title
