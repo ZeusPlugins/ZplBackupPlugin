@@ -25,6 +25,7 @@ namespace YoYoStudio
                 public bool Stop { get; set; }
                 public ZplBackupPluginPreferences Preferences { get; set; }
                 public ModulePackage IdeInterface { get; set; }
+                public ModulePackage Package => IdeInterface;
                 public Random Numbers { get; set; }
 
                 public void OnChange(List<string> _changed)
