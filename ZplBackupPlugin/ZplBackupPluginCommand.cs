@@ -13,6 +13,7 @@ using YoYoStudio.GUI.Gadgets;
 using YoYoStudio.Resources;
 using YoYoStudio.Core.Utils.SourceControl;
 using YoYoStudio.GUI;
+using YoYoStudio.Plugins.Attributes;
 
 namespace YoYoStudio
 {
@@ -20,6 +21,7 @@ namespace YoYoStudio
     {
         namespace ZplBackupPlugin
         {
+            [ModuleName("BackupCommand", "Handles project backup")]
             public class ZplBackupPluginCommand : IModule, IDisposable
             {
                 public bool Stop { get; set; }
@@ -258,7 +260,8 @@ namespace YoYoStudio
 
                         // TODO: free unmanaged resources (unmanaged objects) and override a finalizer below.
                         // TODO: set large fields to null.
-
+                        IdeInterface = null;
+                        Numbers = null;
                         disposed = true;
                     }
                 }
